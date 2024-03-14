@@ -1,0 +1,28 @@
+<div class="background-container">
+    <div class="header-container"></div>
+
+    <div class="content-text">
+        <div class="fline">
+            Explore FileUnique
+        </div>
+        <br>
+        <div class="sline">
+            Your files, uniquely secure.
+        </div>
+        <div class="secure">
+            Every upload is processed securely within your device, away from prying eyes.
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="background-image">
+            <div class="file-upload">
+                <input type="file" multiple (change)="onFilesSelected($event)" accept=".zip">
+                {{uploadedCount}}
+                <button nz-button nzType="primary" (click)="downloadResult()" *ngIf="showDownloadButton">Download
+                    Result</button>
+
+            </div>
+        </div>
+    </div>
+</div>

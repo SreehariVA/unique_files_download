@@ -1,0 +1,54 @@
+.background-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 3, 44);
+    height: 100%;
+}
+
+.header-container {
+    height: 7rem;
+}
+
+.content-text {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fline {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.sline {
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.secure {
+    padding-top: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.content {
+    margin: 5rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    position: relative;
+}
+
+.file-upload {
+    height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: white;
+}
+
+.alert {
+    color: red;
+}
